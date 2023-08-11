@@ -1,6 +1,14 @@
+import DetailSurahBody from "../components/DetailSurahBody"
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+
 function DetailSurah() {
     return (
-        <h1>DetailSurah</h1>
+        <>
+            <Navbar />
+            <DetailSurahBody />
+            <Footer />
+        </>
     )
 }
 

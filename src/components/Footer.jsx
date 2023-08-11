@@ -2,8 +2,8 @@ function Footer() {
     return (
         <div className="grid grid-cols-1 grid-flow-row">
             <div className="bg-primary p-20 text-center">
-                <p className="text-[30px] text-white font-bold mb-5">Quran Verse Finder</p>
-                <p className="text-sm text-white mb-8">Excepteur voluptate do minim enim occaecat reprehenderit velit enim exercitation consequat dolore velit irure. Sint ex reprehenderit minim irure incididunt culpa sint voluptate pariatur magna nisi. Dolore cupidatat cupidatat dolor sint laboris aute id pariatur mollit mollit. Incididunt aute dolor do laborum voluptate proident. Do consectetur duis qui tempor esse ipsum dolor occaecat excepteur proident aliquip amet est. Minim proident mollit sint mollit adipisicing occaecat. Nostrud labore nisi velit sit non laboris tempor velit do ea sit consectetur consectetur.</p>
+                <p className="text-[25px] sm:text-[30px] text-white font-bold mb-5">Quran Verse Finder</p>
+                <p className="text-[10px] sm:text-sm text-white mb-8">Excepteur voluptate do minim enim occaecat reprehenderit velit enim exercitation consequat dolore velit irure. Sint ex reprehenderit minim irure incididunt culpa sint voluptate pariatur magna nisi. Dolore cupidatat cupidatat dolor sint laboris aute id pariatur mollit mollit. Incididunt aute dolor do laborum voluptate proident. Do consectetur duis qui tempor esse ipsum dolor occaecat excepteur proident aliquip amet est. Minim proident mollit sint mollit adipisicing occaecat. Nostrud labore nisi velit sit non laboris tempor velit do ea sit consectetur consectetur.</p>
                 <div className="flex justify-center items-center gap-4">
                     {/* Instagram */}
                     <a href="" className="fill-white">
@@ -37,8 +37,8 @@ function Footer() {
 
                 </div>
             </div>
-            <div className="bg-secondary text-end">
-                <p className="mx-5 my-3 text-white text-sm font-bold">Develop by: nahdian.dev@gmail.com</p>
+            <div className="bg-secondary text-end ">
+                <p className="mx-5 my-3 text-white text-[8px] sm:text-sm font-bold">Develop by: nahdian.dev@gmail.com</p>
             </div>
         </div>
     )
