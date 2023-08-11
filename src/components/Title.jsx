@@ -1,3 +1,5 @@
+import quranLogo from '../assets/logo.png';
+
 function Title() {
     return (
         <section id="header" >
@@ -18,7 +20,7 @@ function Title() {
                     </a>
                 </div>
                 <div className="hidden sm:flex sm:justify-center">
-                    <img src="../assets/logo.png" className="w-52 lg:w-80 lg:h-80 relative" />
+                    <img src={quranLogo} className="w-52 lg:w-80 lg:h-80 relative" />
                 </div>
             </div>
         </section>
