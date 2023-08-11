@@ -18,7 +18,7 @@ function Title() {
                     </a>
                 </div>
                 <div className="hidden sm:flex sm:justify-center">
-                    <img src="/src/assets/logo.png" className="w-52 lg:w-80 lg:h-80 relative" />
+                    <img src="../assets/logo.png" className="w-52 lg:w-80 lg:h-80 relative" />
                 </div>
             </div>
         </section>
