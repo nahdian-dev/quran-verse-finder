@@ -1,4 +1,4 @@
-import quranLogo from '../assets/logo.png';
+import quranLogo from './assets/logo.png';
 
 function Title() {
     return (
