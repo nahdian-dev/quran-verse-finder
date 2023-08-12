@@ -1,6 +1,7 @@
-import quranLogo from './assets/logo.png';
+import quranLogo from '../assets/logo.png';
 
 function Title() {
+
     return (
         <section id="header" >
             <div className="w-full h-screen flex flex-col justify-center bg-primary sm:grid sm:grid-cols-2 sm:items-center">
@@ -20,7 +21,7 @@ function Title() {
                     </a>
                 </div>
                 <div className="hidden sm:flex sm:justify-center">
-                    <img src={quranLogo} className="w-52 lg:w-80 lg:h-80 relative" />
+                    <img src={quranLogo} alt='Quran Verse Finder Logo' className="w-52 lg:w-80 lg:h-80 relative" />
                 </div>
             </div>
         </section>
