@@ -22,7 +22,7 @@ function DetailSurah() {
             });
         }
         fetchData();
-    });
+    }, [surah]);
 
     return (
         <>
