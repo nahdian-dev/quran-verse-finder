@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 
 import Navbar from "../components/Navbar";
 import DetailSurahBody from "../components/DetailSurahBody";
-import Footer from "../components/Footer";
 
 function DetailSurah() {
     const [data, setData] = useState([]);
