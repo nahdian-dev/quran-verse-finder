@@ -15,7 +15,7 @@ function ListSurahCard({ items }) {
         >
             <div key={items.uuid} className="container flex justify-center items-center rounded-xl w-full h-8 bg-primary first-line:sm:h-12 lg:h-14">
                 <div key={items.uuid} className="text-white text-center font-bold text-[8px] md:text-[10px] lg:text-sm">
-                    {items.uuid}
+                    {items.value.name}
                 </div>
             </div>
         </Link>
