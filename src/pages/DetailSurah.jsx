@@ -7,8 +7,8 @@ import DetailSurahBody from "../components/DetailSurahBody";
 import Footer from "../components/Footer";
 
 function DetailSurah() {
-    const { surah } = useParams();
     const [data, setData] = useState([]);
+    const { surah } = useParams();
 
     useEffect(() => {
         async function fetchData() {
@@ -28,7 +28,7 @@ function DetailSurah() {
         <>
             <Navbar data={data.name} />
             <DetailSurahBody data={data} />
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }
