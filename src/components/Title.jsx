@@ -1,11 +1,10 @@
 import quranLogo from '../assets/logo.png';
 
 function Title() {
-
     return (
         <section id="header" >
             <div className="w-full h-screen flex flex-col justify-center bg-primary sm:grid sm:grid-cols-2 sm:items-center">
-                <img src="/src/assets/logo.png" className="w-14 h-14 ml-8 sm:hidden" />
+                <img src={quranLogo} className="w-14 h-14 ml-8 sm:hidden" />
                 <div className="flex flex-col mx-10">
                     <p className="pb-5 text-[40px] lg:text-[50px] text-white font-bold">Quran Verse Finder</p>
                     <p className="pb-5 text-[10px] lg:text-[15px] text-white">
@@ -21,7 +20,7 @@ function Title() {
                     </a>
                 </div>
                 <div className="hidden sm:flex sm:justify-center">
-                    <img src={quranLogo} alt='Quran Verse Finder Logo' className="w-52 lg:w-80 lg:h-80 relative" />
+                    <img src={quranLogo} alt='Quran Verse Finder Logo' className="w-52 h-52 lg:w-80 lg:h-80" />
                 </div>
             </div>
         </section>
