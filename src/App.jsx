@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route>
           <Route index element={<Homepage />} />
-          <Route path="detail-surah" element={<DetailSurah />} />
+          <Route path="/detail-surah/:surah" element={<DetailSurah />} />
         </Route>
       </Routes>
     </BrowserRouter>

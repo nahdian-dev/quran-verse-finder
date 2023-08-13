@@ -14,13 +14,7 @@ function MainSearch() {
 
     const fetchData = async () => {
         try {
-            // setIsLoading(true);
-            // setValueRevelation("");
-            // const httpResult = await axios.get(`https://quran-verse-explorer.vercel.app/surah?t=${valueTranslation}&v=${valueVerse}&r=${valueRevelation}`);
-            // setData(httpResult.data);
-
             setIsLoading(true);
-            setValueRevelation("");
             const httpResult = await axios.get(`https://quran-verse-explorer.vercel.app/surah?t=${valueTranslation}&v=${valueVerse}&r=${valueRevelation}`);
             const fetchData = httpResult.data;
             const addUUID = fetchData.map(item => ({
@@ -81,7 +75,7 @@ function MainSearch() {
                                 </label>
 
                                 <label className="inline-flex items-center">
-                                    <input type="radio" className="form-radio h-[6px] sm:h-2 text-indigo-600" name="radio-option" value="" onChange={handleInputChange3} />
+                                    <input type="radio" className="form-radio h-[6px] sm:h-2 text-indigo-600" name="radio-option" value="nothing" onChange={handleInputChange3} />
                                     <span className="ml-2 text-[8px] sm:text-[10px]">Tidak Memilih</span>
                                 </label>
                             </div>
